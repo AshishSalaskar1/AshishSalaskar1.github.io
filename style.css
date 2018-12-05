@@ -13,12 +13,6 @@
   opacity: 2px;
 }
 
-@media (max-width: 480px) {
-  .hero-img {
-    height: 90vh;
-  }
-}
-
 .name {
   color: #ffffffef;
   font-family: 'Slabo 27px', serif;
@@ -47,7 +41,7 @@
   .profile-pic {
     height: 80px;
     width: 80px;
-    margin-top: 150px;
+    margin-top: 200px;
   }
 }
 
