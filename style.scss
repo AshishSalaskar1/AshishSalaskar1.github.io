@@ -22,7 +22,8 @@
     opacity: 2px;
 
     @include desktop {
-        height: 100vh;
+        height: 75vh;
+
     }
 }
 
@@ -31,6 +32,12 @@
     font-family: 'Slabo 27px', serif;
     font-size:2.5em;
     letter-spacing: 2px;
+
+    @include desktop {
+        font-size: 1.7em;
+        padding-bottom: -10px;
+        padding-top: -10px;
+     }
     
      
 }
@@ -40,14 +47,14 @@
     border: 3px solid rgba(255, 255, 255, 0.568);
     border-radius: 50%;
     margin:0  auto;
-    margin-top: 15em;
+    margin-top: 175px;
     margin-bottom: 20px;
     padding: 3px;
     @include desktop {
         // padding: 6px 6px;
         height: 80px;
         width: 80px;
-        margin-top: 15em; 
+        margin-top: 125px; 
        
     }
     
@@ -81,14 +88,6 @@ hr{
     margin: 1%; 
 }
 
-.name {
-    @include desktop {
-       font-size: 1.7em;
-       padding-bottom: -10px;
-       padding-top: -10px;
-    }
-}
-
 .name-item {
     @include desktop {
         padding-top: -10px;
@@ -112,10 +111,10 @@ hr{
     }
 }
 
-.main {
-    margin-top: -49px;
-    // padding-top: -100px;
-}
+// .main {
+//     margin-top: -49px;
+//     // padding-top: -100px;
+// }
 
 #intro-text {
     width: 92%;

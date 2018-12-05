@@ -15,7 +15,7 @@
 
 @media (max-width: 480px) {
   .hero-img {
-    height: 100vh;
+    height: 75vh;
   }
 }
 
@@ -26,11 +26,19 @@
   letter-spacing: 2px;
 }
 
+@media (max-width: 480px) {
+  .name {
+    font-size: 1.7em;
+    padding-bottom: -10px;
+    padding-top: -10px;
+  }
+}
+
 .profile-pic {
   border: 3px solid rgba(255, 255, 255, 0.568);
   border-radius: 50%;
   margin: 0  auto;
-  margin-top: 15em;
+  margin-top: 175px;
   margin-bottom: 20px;
   padding: 3px;
 }
@@ -39,7 +47,7 @@
   .profile-pic {
     height: 80px;
     width: 80px;
-    margin-top: 15em;
+    margin-top: 125px;
   }
 }
 
@@ -78,14 +86,6 @@ hr {
 }
 
 @media (max-width: 480px) {
-  .name {
-    font-size: 1.7em;
-    padding-bottom: -10px;
-    padding-top: -10px;
-  }
-}
-
-@media (max-width: 480px) {
   .name-item {
     padding-top: -10px;
     font-size: 1em;
@@ -102,10 +102,6 @@ hr {
 .navbar .navbar-brand#logo {
   color: #ddfaff;
   font-size: 18px;
-}
-
-.main {
-  margin-top: -49px;
 }
 
 #intro-text {
