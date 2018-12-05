@@ -1,63 +1,115 @@
-.hero-img{
-    background-image: url(/images/bg.jpg);
-    background-repeat:no-repeat;
-    background-size:cover;
-    background-position:center;
+.hero-img {
+  background-image: url(images/bg3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 20px;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  position: relative;
+  background-attachment: fixed;
+  height: 100vh;
+  width: 100%;
+  opacity: 2px;
+}
 
-   backdrop-filter: blur(5px);
-
-
-    position: relative;
-    background-attachment: fixed;
-
+@media (max-width: 480px) {
+  .hero-img {
     height: 100vh;
-    width: 100%;
-    opacity: 2px;
+  }
 }
 
-.name{
-    color: #ffffffef;
-    font-family: 'Slabo 27px', serif;
-    font-size:2.5em;
-    letter-spacing: 2px;
-    
-     
+.name {
+  color: #ffffffef;
+  font-family: 'Slabo 27px', serif;
+  font-size: 2.5em;
+  letter-spacing: 2px;
 }
 
-.profile-pic{
-    border: 3px solid rgba(255, 255, 255, 0.568);
-    border-radius: 50%;
-    margin:0  auto;
+.profile-pic {
+  border: 3px solid rgba(255, 255, 255, 0.568);
+  border-radius: 50%;
+  margin: 0  auto;
+  margin-top: 15em;
+  margin-bottom: 20px;
+  padding: 3px;
+}
+
+@media (max-width: 480px) {
+  .profile-pic {
+    height: 80px;
+    width: 80px;
     margin-top: 15em;
-    margin-bottom: 20px;
-    padding: 3px;
-    
+  }
 }
 
-hr{
-    border:1px solid rgba(255,255,255,0.5);
-    border-radius: 25%;
-    width: 60%;
+hr {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 25%;
+  width: 60%;
 }
 
-.name-item{
-    color:#fffffff1;
-    font-family: 'Slabo 27px', serif;
-    letter-spacing: 2px;
+.name-item {
+  color: #fffffff1;
+  font-family: 'Slabo 27px', serif;
+  letter-spacing: 2px;
 }
 
-.icon-colors{
-    color: rgba(240, 248, 255, 0.849);
-
+.icon-colors {
+  color: rgba(240, 248, 255, 0.849);
 }
 
-.social-icons{
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
+.social-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
-.social-icons a{
-    padding: 0.6%;
-    margin: 1%; 
+.social-icons a {
+  padding: 0.6%;
+  margin: 1%;
 }
+
+@media (max-width: 480px) {
+  .name {
+    font-size: 1.7em;
+    padding-bottom: -10px;
+    padding-top: -10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .name-item {
+    padding-top: -10px;
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 480px) {
+  .social-icons {
+    font-size: 11px;
+    margin-top: 20px;
+  }
+}
+
+.navbar .navbar-brand#logo {
+  color: #ddfaff;
+  font-size: 18px;
+}
+
+.main {
+  margin-top: -49px;
+}
+
+#intro-text {
+  width: 92%;
+  margin-top: -20px;
+}
+/*# sourceMappingURL=style.css.map */

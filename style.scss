@@ -1,0 +1,123 @@
+@mixin desktop {
+    @media (max-width: #{480px}){
+        @content
+    }
+    
+}
+
+.hero-img{
+    background-image: url(images/bg3.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    padding-top: 20px;
+
+   backdrop-filter: blur(10px);
+
+    position: relative;
+    background-attachment: fixed;
+
+    height: 100vh;
+    width: 100%;
+    opacity: 2px;
+
+    @include desktop {
+        height: 100vh;
+    }
+}
+
+.name{
+    color: #ffffffef;
+    font-family: 'Slabo 27px', serif;
+    font-size:2.5em;
+    letter-spacing: 2px;
+    
+     
+}
+
+.profile-pic {
+    
+    border: 3px solid rgba(255, 255, 255, 0.568);
+    border-radius: 50%;
+    margin:0  auto;
+    margin-top: 15em;
+    margin-bottom: 20px;
+    padding: 3px;
+    @include desktop {
+        // padding: 6px 6px;
+        height: 80px;
+        width: 80px;
+        margin-top: 15em; 
+       
+    }
+    
+}
+
+hr{
+    border:1px solid rgba(255,255,255,0.5);
+    border-radius: 25%;
+    width: 60%;
+}
+
+.name-item{
+    color:#fffffff1;
+    font-family: 'Slabo 27px', serif;
+    letter-spacing: 2px;
+}
+
+.icon-colors{
+    color: rgba(240, 248, 255, 0.849);
+
+}
+
+.social-icons{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.social-icons a{
+    padding: 0.6%;
+    margin: 1%; 
+}
+
+.name {
+    @include desktop {
+       font-size: 1.7em;
+       padding-bottom: -10px;
+       padding-top: -10px;
+    }
+}
+
+.name-item {
+    @include desktop {
+        padding-top: -10px;
+       font-size: 1em;
+       
+    }
+}
+
+.social-icons {
+    @include desktop {
+        font-size: 11px;
+        margin-top: 20px;
+        
+    }
+}
+
+.navbar {
+    .navbar-brand#logo{
+        color: rgb(221, 250, 255);
+        font-size: 18px;
+    }
+}
+
+.main {
+    margin-top: -49px;
+    // padding-top: -100px;
+}
+
+#intro-text {
+    width: 92%;
+    margin-top: -20px;
+}
