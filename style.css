@@ -145,9 +145,22 @@ hr {
   border-color: aquamarine;
 }
 
+#edu-title{
+  background-color: #3c596c;
+  padding-left: 10px;
+  margin: 5px 0px;
+}
 
+#skills-section{
+  background-color: #202d4e;
+  /* color: white; */
+}
 
-/* #edu-image{
-  size: 100% 80%;
-} */
+.card-header{
+  background-color: #0c6fe0;
+  color: white;
+}
 
+.card-body{
+  /* background-color: #daf0ff; */
+}
