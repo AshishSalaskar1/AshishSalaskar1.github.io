@@ -13,9 +13,13 @@
   opacity: 2px;
 }
 
-@media (max-width: 480px) {
-  .hero-img {
-    height: 90vh;
+
+
+@media (max-width: 480px){
+  .edu-item{
+    border-left-style: none;
+    border-right-style: none;
+    border-color: aquamarine;
   }
 }
 
@@ -109,3 +113,41 @@ hr {
   margin-top: -20px;
 }
 /*# sourceMappingURL=style.css.map */
+
+#particles-js {
+  /* background: rgba(27, 40, 83, 0.972); */
+  position: relative;
+}
+
+#inner-particle{
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto
+}
+
+/* *, ::after, ::before {
+  box-sizing: content-box;
+} */
+
+#education-section{
+  background-color: #0f344e;
+  border-radius: 10px;
+  color: white;
+  padding: 60px;
+}
+
+.edu-item{
+  border-top-style: none;
+  border-right-style: solid;
+  border-bottom-style: none;
+  border-left-style: solid;
+  border-color: aquamarine;
+}
+
+
+
+/* #edu-image{
+  size: 100% 80%;
+} */
+
