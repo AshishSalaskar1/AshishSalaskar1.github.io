@@ -673,24 +673,28 @@ a.dotted-link:hover {
   font-size: 0.8em;
 }
 
-#fbIcon:hover{
-  background: rgb(0, 81, 255);
+#fbIcon:hover , #fbIcon{
+  background: #4266b2;
 }
 
-#liIcon:hover{
+
+#liIcon:hover , #liIcon{
   background: #0177b4;
 }
 
-#behanceIcon:hover{
-  background: #21d2e2;
+#behanceIcon:hover, #behanceIcon {
+  background: #376dda;
 }
 
-#quoraIcon:hover{
+#quoraIcon:hover, #quoraIcon{
   background: #b93128;
 }
 
-#githubIcon:hover{
+#githubIcon:hover, #githubIcon{
   background: black;
 }
 
- 
+.typewrite {
+  font-weight: bold;
+  color: rgb(16, 141, 214);
+}
