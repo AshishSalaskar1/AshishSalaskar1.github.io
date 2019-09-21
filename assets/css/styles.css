@@ -668,8 +668,29 @@ a.dotted-link:hover {
   }
 }
 
-
 .more-link{
   padding-left: 0px;
   font-size: 0.8em;
 }
+
+#fbIcon:hover{
+  background: rgb(0, 81, 255);
+}
+
+#liIcon:hover{
+  background: #0177b4;
+}
+
+#behanceIcon:hover{
+  background: #21d2e2;
+}
+
+#quoraIcon:hover{
+  background: #b93128;
+}
+
+#githubIcon:hover{
+  background: black;
+}
+
+ 
