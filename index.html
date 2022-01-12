@@ -1,349 +1,150 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="no-js" lang="en">
 <head>
-    <title>Ashish Salaskar</title>
-    <!-- Meta -->
+
+    <!--- basic page needs
+    ================================================== -->
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Ashish Salaskar">  
-    <link rel="shortcut icon" href="ash.png">  
-    
-    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'> 
-    
-    <!-- FontAwesome JS -->
-    <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js" integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP" crossorigin="anonymous"></script>
-    
-    <!-- Global CSS -->
-    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">   
-    
-    <!-- github calendar css -->
-    <link rel="stylesheet" href="assets/plugins/github-calendar/dist/github-calendar.css">
-    <!-- github acitivity css -->    
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
-    <link rel="stylesheet" href="assets/plugins/github-activity/github-activity-0.1.5.min.css">
-    
-    <!-- Theme CSS -->  
-    <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
-    
-</head> 
+    <title>Ashish Salaskar</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-<body>
-    <!-- ******HEADER****** --> 
-    <header class="header">
-        <div class="container clearfix">                       
-            <img class="profile-image img-fluid float-left" src="assets/images/profile.png" alt="James Lee" />
-            <div class="profile-content float-left">
-                <h1 class="name">Ashish Salaskar</h1>
-               <h2 class="desc" >
-                        I am a 
-                        <a href="" class="typewrite" data-period="2000" data-type='[ " Programmer."," Tech Enthusaist.", " Developer.", " Avid Reader." ]'>
-                          <span class="wrap"></span>
-                        </a>
-                <h2>
-                <h2 class="desc"></h2>   
-                <ul class="social list-inline">
-                    <li class="list-inline-item"><a id="fbIcon" target="_blank" href="https://www.facebook.com/ashish.salaskar.7"><i class="fab fa-facebook"></i></a></li>                   
-                    <li class="list-inline-item"><a id="liIcon" target="_blank" href="https://www.linkedin.com/in/ashishsalaskar/"><i class="fab fa-linkedin-in"></i></a></li>
-                    <li class="list-inline-item"><a id="githubIcon" target="_blank" href="https://github.com/AshishSalaskar1"><i class="fab fa-github-alt"></i></a></li>    
-                    <li class="list-inline-item"><a id="quoraIcon" target="_blank" href="https://www.quora.com/profile/Ashish-Salaskar"><i class="fab fa-quora"></i></a></li>   
-                    <li class="list-inline-item last-item"><a id="behanceIcon" target="_blank" href="https://www.behance.net/ashishsalaskar1"><i class="fab fa-behance"></i></a></li>                
-                </ul> 
-            </div><!--//profile-->
-             </div><!--//container-->
-    </header><!--//header-->
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- script
+    ================================================== -->
+    <script src="js/modernizr.js"></script>
+    <script defer src="js/fontawesome/all.min.js"></script>
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+
+</head>
+
+<body id="top">
+
+    <!-- preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader" class="dots-fade">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+    <!-- site header
+    ================================================== -->
+    <header class="s-header">
+
+
+        <div class="header-email">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 12l11 3.1 7-8.1-8.156 5.672-4.312-1.202 15.362-7.68-3.974 14.57-3.75-3.339-2.17 2.925v-.769l-2-.56v7.383l4.473-6.031 4.527 4.031 6-22z"/></svg>
+            <a href="mailto:#0">ashishsalaskar1@gmail.com</a>
+        </div>
+
+    </header> <!-- end s-header -->
+
+    <!-- intro
+    ================================================== -->
+    <section id="intro" class="s-intro s-intro--particles">
+
+        <div id="particles-js" class="intro-particles"></div>
+
+        <div class="grid-overlay">
+            <div></div>
+        </div> 
+
+        <div class="row intro-content">
+
+            <div class="column">
+
+                <div class="intro-content__text">
+
+                    <h3>
+                    Coming Soon
+                    </h3>
+                    
+                    <h1>
+                    Get ready everyone. <br>
+                    We are currently <br>
+                    working on a super <br>
+                    awesome website.
+                    </h1>
+
+                </div> <!-- end intro-content__text -->
+
+
+                    <div class="intro-content__notify">
+                        <button type="button" class="btn--stroke btn--small modal-trigger">
+                            Notify Me
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 12l-9-9v7h-15v4h15v7z"/></svg>
+                        </button>
+                    </div> <!-- end intro-content__notify -->
     
-    <div class="container sections-wrapper">
-        <div class="row">
-            <div class="primary col-lg-8 col-12">
-                <section class="about section">
-                    <div class="section-inner">
-                        <h2 class="heading">About Me</h2>
-                        <div class="content">
-                            <p>
-                                A Computer Science student and an aspiring Full stack developer. I am Proficient in C, C++, Python and JavaScript.
-                                Recently developed a keen interest in Machine Learning and Image Processing. I have worked on several Web Development projects
-                                using NodeJs for the backend. Always keen on Learning something new every day of my life.
+                </div> <!-- end intro-content__bottom -->
 
-                            </p>
-                        </div><!--//content-->
-                    </div><!--//section-inner-->                 
-                </section><!--//section-->
-    
-                <section class="projects section">
-                    <div class="section-inner">
-                        <h2 class="heading">My Projects</h2>
-                        <div class="content">
-                            <div class="item">
-                                <h3 class="title"> Face Unlock System Using OpenCV <span class="badge badge-theme">Python</span></h3>
-                                <p class="summary">A facial recogntion lock system implement using OpenCV using Haar Cascade Classifier for face recognition.
-                                    <ul>
-                                        <li>Model can be trained for a single face. Training examples are automatically captured from the webcam feed using OpenCV.
-                                        </li>
-                                        <li> Program can validate whether the same face appears in the webcam feed to unlock the sytem Haar cascade classifier is being used for facial detection and recognition.
-                                        </li>
-                                    </ul>
-                                </p>
-                                <p><a class="more-link" target="_blank"  href="https://github.com/AshishSalaskar1/Face_Unlock_System_OpenCV" target="_blank"><i class="fas fa-external-link-alt"></i>View Project</a></p>
-                            </div><!--//item-->
-                            <hr>
-                            <div class="item">
-                                    <h3 class="title"> PhotoBlog Android App <span class="badge badge-theme">Android</span></h3>
-                                    <p class="summary">A facial recogntion lock system implement using OpenCV using Haar Cascade Classifier for face recognition.
-                                        <ul>
-                                            <li>Implemented User Login, SignUp and User Authentication along with adding a post with Image and description
-                                            </li>
-                                            <li> A Main news feed is provided which displays all the posts posted by all the users
-                                                    Comment and like feature is also available for posts.
-                                            </li>
-                                        </ul>
-                                    </p>
-                                    <p><a class="more-link" href="https://github.com/AshishSalaskar1/BlogApp_Android" target="_blank"><i class="fas fa-external-link-alt"></i>View Project</a></p>
-                            </div><!--//item-->
-                            <hr>
-                            <div class="item">
-                                    <h3 class="title"> Insurance Management System <span class="badge badge-theme">Java</span></h3>
-                                    <p class="summary">
-                                        Implemented a Insurance policy management system to facilitate the process of mananging insurance policies
-                                    </p>
-                                    <ul>
-                                        <li>Used Java Swing for the front-end and Oracle XE database for the backend</li>
-                                    </ul>
-                                    <p><a class="more-link" href="https://github.com/AshishSalaskar1/db_mini_project" target="_blank"><i class="fas fa-external-link-alt"></i>View Project</a></p>
-                            </div><!--//item-->
-                            <hr>
-                            <div class="item">
-                                    <h3 class="title"> Lane Detection using Hough transforms <span class="badge badge-theme">Python</span></h3>
-                                    <p class="summary">
-                                        Program which identifies the lane lines in the fed video. Used Hough Transforms method to implement the lane detection algorithm
-                                    </p>
-                                   
-                                    <p><a class="more-link" href="https://github.com/AshishSalaskar1/Lane_Detection_OpenCV" target="_blank"><i class="fas fa-external-link-alt"></i>View Project</a></p>
-                            </div><!--//item-->
-                           
-                        </div><!--//content-->  
-                    </div><!--//section-inner-->                 
-                </section><!--//section-->
-                
-                <section class="experience section">
-                    <div class="section-inner">
-                        <h2 class="heading">Internship Experience</h2>
-                        <div class="content">
-                            <div class="item">
-                                <h3 class="title">Full Stack Developer Intern <br> <span class="place"><a href="#">Shree Kartik Softwares</a></span> <span class="year">(Jul - Aug 2019)</span></h3>
-                                <ul>
-                                    <li>Worked as full stack developer and handled various layers of work like Database , Middleware and the View/Presentation Layer</li>
-                                    <li>Used NodeJs for the back-end & Postgre SQL database</li>
-                                </ul>
-             
-                            </div><!--//item-->
-                            <hr>
-                            <div class="item">
-                                <h3 class="title">Android Development Intern <br><span class="place"><a href="#">MPS Labs, Dharwad</a></span> <span class="year">(Jul - Aug 2018)</span></h3>
-                                <ul>
-                                    <li>Worked on building the front-end for android apps</li>
-                                    <li>Also worked on designing the needed vector assets for the apps</li>
-                                </ul>
-                            </div><!--//item-->
-                            
-                        </div><!--//content-->  
-                    </div><!--//section-inner-->                 
-                </section><!--//section-->
+            </div> <!-- end column -->
 
-                <section class="github section">
-                    <div class="section-inner">
-                        <h2 class="heading">My GitHub</h2>
-                        <p>Here's a peek at my Github contribution history <a href="https://github.com/IonicaBizau/github-calendar" target="_blank">.
-                        
-                        <div id="github-graph" class="github-graph">
+        </div> <!--  end intro-content -->
 
-                        </div><!--//github-graph-->
+       n <div class="modal">
+            <div class="modal__inner">
 
-                        <p>My recent Github Activities<a href="https://caseyscarborough.com/projects/github-activity/" target="_blank">        
-                        <!--//Usage: https://caseyscarborough.com/projects/github-activity/ -->                       
-                        <div id="ghfeed" class="ghfeed">
-                        </div><!--//ghfeed-->
-                        
-                    </div><!--//secton-inner-->
-                </section><!--//section-->
-            </div><!--//primary-->
+                <span class="modal__close"></span>
 
-            <div class="secondary col-lg-4 col-12">
-                 <aside class="info aside section">
-                    <div class="section-inner">
-                        <h2 class="heading sr-only">Basic Information</h2>
-                        <div class="content">
-                            <ul class="list-unstyled">
-                                <li><i class="fas fa-map-marker-alt"></i><span class="sr-only">Location:</span>Karntaka</li>
-                                <li><i class="fas fa-envelope"></i><span class="sr-only">Email:</span><a href="#">ashishsalasar1@gmail.com</a></li>
-                                <li><i class="fas fa-link"></i><span class="sr-only">Website:</span><a href="#">ashishsalaskar1.github.io</a></li>
-                            </ul>
-                        </div><!--//content-->  
-                    </div><!--//section-inner-->                 
-                </aside><!--//aside-->
-                
-                <aside class="skills aside section">
-                    <div class="section-inner">
-                        <h2 class="heading">Skills</h2>
-                        <div class="content">
-                            <p class="intro">
-                            <div class="skillset">
-                               
-                                <div class="item">
-                                    <h3 class="level-title">Python<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i>Proficient</span></h3>
-                                    <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="75%">
-                                        </div>                                      
-                                    </div><!--//level-bar-->                                 
-                                </div><!--//item-->
-                                
-                                <div class="item">
-                                    <h3 class="level-title">Javascript<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i>Proficient</span></h3>
-                                    <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="75%">
-                                        </div>                                      
-                                    </div><!--//level-bar-->                                 
-                                </div><!--//item-->
-                                
-                                <div class="item">
-                                    <h3 class="level-title">HTML5, CSS3, Bootstrap<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i>Intermediate</span></h3>
-                                    <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="70%">
-                                        </div>                                      
-                                    </div><!--//level-bar-->                                 
-                                </div><!--//item-->
-                                
-                                <div class="item">
-                                    <h3 class="level-title">C &amp; C++<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i>Intermediate</span></h3>
-                                    <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="60%">
-                                        </div>                                      
-                                    </div><!--//level-bar-->                                 
-                                </div><!--//item-->
-                                <div class="item">
-                                        <h3 class="level-title">Node Js<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i>Intermediate</span></h3>
-                                        <div class="level-bar">
-                                            <div class="level-bar-inner" data-level="60%">
-                                            </div>                                      
-                                        </div><!--//level-bar-->                                 
-                                </div><!--//item-->
-                                <div class="item">
-                                        <h3 class="level-title">Vue Js<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i>Beginner</span></h3>
-                                        <div class="level-bar">
-                                            <div class="level-bar-inner" data-level="30%">
-                                            </div>                                      
-                                        </div><!--//level-bar-->                                 
-                                </div><!--//item-->
-                                <div class="item">
-                                        <h3 class="level-title">Machine Learning <span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i>Beginner</span></h3>
-                                        <div class="level-bar">
-                                            <div class="level-bar-inner" data-level="20%">
-                                            </div>                                      
-                                        </div><!--//level-bar-->                                 
-                                </div><!--//item-->
-                            </div>              
-                        </div><!--//content-->  
-                    </div><!--//section-inner-->                 
-                </aside><!--//section-->
-                
-                <aside class="education aside section">
-                    <div class="section-inner">
-                        <h2 class="heading">Education</h2>
-                        <div class="content">
-                            <div class="item">                      
-                                <h3 class="title"><i class="fas fa-graduation-cap"></i> B.E Computer Science</h3>
-                                <h4 class="university">KLS VDIT, Haliyal <span class="year">(2016-2020)</span></h4>
-                            </div><!--//item-->
-                            <div class="item">
-                                <h3 class="title"><i class="fas fa-graduation-cap"></i> PUC</h3>
-                                <h4 class="university">BNJC, Dandeli <span class="year">(2014-2016)</span></h4>
-                            </div><!--//item-->
-                            <div class="item">
-                                    <h3 class="title"><i class="fas fa-graduation-cap"></i> SSLC</h3>
-                                    <h4 class="university">St. Michael's Convent School <span class="year">(2014)</span></h4>
-                                </div><!--//item-->
-                        </div><!--//content-->
-                    </div><!--//section-inner-->
-                </aside><!--//section-->
-                            
-                <aside class="languages aside section">
-                    <div class="section-inner">
-                        <h2 class="heading">Languages</h2>
-                        <div class="content">
-                            <ul class="list-unstyled">
-                                <li class="item">
-                                        <span class="title"><strong>English:</strong></span>
-                                        <span class="level">Full Professional Proficiency <br class="visible-xs"/><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> </span>
-                                </li><!--//item-->
-                                 <li class="item">
-                                    <span class="title"><strong>Hindi:</strong></span>
-                                    <span class="level">Native Speaker <br class="visible-xs"/><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> </span>
-                                </li><!--//item-->
-                                <li class="item">
-                                    <span class="title"><strong>Kannada:</strong></span>
-                                    <span class="level">Read and Write Proficiency <br class="visible-xs"/><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i>  </span>
-                                </li><!--//item-->
-                                <li class="item">
-                                    <span class="title"><strong>Konkani:</strong></span>
-                                    <span class="level">Mother Tongue <br class="visible-sm visible-xs"/><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i><i class="fas fa-star"></i></span>
-                                </li><!--//item-->
-                            </ul>
-                        </div><!--//content-->
-                    </div><!--//section-inner-->
-                </aside><!--//section-->
-                
-                <aside class="blog aside section">
-                    <div class="section-inner">
-                        <h2 class="heading">Latest Blog Posts</h2>
-                        <p> Here are some of my recent Blog posts</p>
-                        <div id="rss-feeds" class="content">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 3v18h24v-18h-24zm6.623 7.929l-4.623 5.712v-9.458l4.623 3.746zm-4.141-5.929h19.035l-9.517 7.713-9.518-7.713zm5.694 7.188l3.824 3.099 3.83-3.104 5.612 6.817h-18.779l5.513-6.812zm9.208-1.264l4.616-3.741v9.348l-4.616-5.607z"/></svg>
 
-                        </div><!--//content-->
-                    </div><!--//section-inner-->
-                </aside><!--//section-->
-                
-                
-                <aside class="list conferences aside section">
-                    <div class="section-inner">
-                        <h2 class="heading">Workshop & Trainings</h2>
-                        <div class="content">
-                            <ul class="list-unstyled">
-                                <li><i class="far fa-calendar-alt"></i> Intro to DataScience - IBM Cognitive Class </li>
-                                <li><i class="far fa-calendar-alt"></i> Amazon Alexathon - Hubli</li>
-                                <li><i class="far fa-calendar-alt"></i> Python - NPTEL (IIT Madras)</li>
-                                <li><i class="far fa-calendar-alt"></i> Web Developer Bootcamp - Udemy</li>
-                                <li><i class="far fa-calendar-alt"></i> IOT using Arduino - Radiance - IIT Bombay</li>
-                            </ul>
-                        </div><!--//content-->
-                    </div><!--//section-inner-->
-                </aside><!--//section-->
-                
-              
-            </div><!--//secondary-->    
-        </div><!--//row-->
-    </div><!--//masonry-->
-    
-    <!-- ******FOOTER****** --> 
-    <footer class="footer">
-        <div class="container text-center">
-                <!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can check out our commercial license options via our website: themes.3rdwavemedia.com */-->
-                <small class="copyright">Designed with <i class="fas fa-heart"></i> by <a href="https://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
-        </div><!--//container-->
-    </footer><!--//footer-->
- 
-    <!-- Javascript -->          
-    <script type="text/javascript" src="assets/plugins/jquery-3.3.1.min.js"></script>
-    <script type="text/javascript" src="assets/plugins/popper.min.js"></script> 
-    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>    
-    <script type="text/javascript" src="assets/plugins/jquery-rss/dist/jquery.rss.min.js"></script> 
-    <!-- github calendar plugin -->
-    <script type="text/javascript" src="assets/plugins/github-calendar/dist/github-calendar.min.js"></script>
-    <!-- github activity plugin -->
-    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
-    <script type="text/javascript" src="assets/plugins/github-activity/github-activity-0.1.5.min.js"></script>
-    <!-- custom js -->
-    <script type="text/javascript" src="assets/js/main.js"></script>            
+                <h3>Sign Up</h3>
+                <p>
+                Be the first to know about the latest updates and
+                get exclusive offer on our grand opening.
+                </p>
+
+                <form id="mc-form" class="group mc-form" novalidate="true">
+                    <input type="email" value="" name="EMAIL" class="email h-full-width h-text-center h-add-half-bottom" id="mc-email" placeholder="Email Address" required="">
+                    <input type="submit" name="subscribe" value="Subscribe" class="btn--small h-full-width">
+                    <label for="mc-email" class="subscribe-message"></label>
+                </form>
+
+            </div> <!-- end modal inner -->
+        </div> <!-- end modal -->
+
+        <ul class="intro-social">
+            <li><a href="#0"><i class="fab fa-facebook" aria-hidden="true"></i></a></li>
+            <li><a href="#0"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+            <li><a href="#0"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+            <li><a href="#0"><i class="fab fa-dribbble" aria-hidden="true"></i></a></li>
+            <li><a href="#0"><i class="fab fa-behance" aria-hidden="true"></i></a></li>
+        </ul> <!-- end intro social -->
+
+        <div class="intro-scroll">
+            <a href="#info" class="scroll-link smoothscroll">
+                Scroll For More
+            </a>
+        </div> <!-- end intro scroll -->
+
+    </section> <!-- end s-intro -->
+
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/particles.min.js"></script>
+    <script src="js/particle-settings.js"></script>
+    <script src="js/main.js"></script>
+
 </body>
-</html> 
-
